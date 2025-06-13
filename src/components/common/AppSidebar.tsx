@@ -25,7 +25,7 @@ function AppSidebar() {
   const pathname = usePathname();
   return (
     <Sidebar>
-      <SidebarHeader>
+      <SidebarHeader className="py-6 pl-4">
         <h1 className="text-4xl text-blue-700 font-semibold font-geist-sans mb-6">
           Quiz Game
         </h1>
